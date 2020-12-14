@@ -1,3 +1,19 @@
 {
-  "envId": "development-0gcgmkq2c3ab36a0"
+    "envId": "development-0gcgmkq2c3ab36a0",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "framework": {
+        "name": "react-axios-hook",
+        "plugins": {
+            "react": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "npm run build",
+                    "outputPath": "build"
+                }
+            }
+        }
+    }
 }
